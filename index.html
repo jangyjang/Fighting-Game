@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+  	<title>Muay Thai Fight</title>
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	<link rel="stylesheet" href="assets/css/bootstrap.css">
+  	<link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400,700|Yatra+One" rel="stylesheet">
+
+
+</head>
+<body>
+
+	<div class="container">
+	<div class="topwraper">
+		<div class=row> <!--row1 starts here-->
+			<div class="col-xs-12 col-sm-12 col-md-12"> 
+				<div id="header">
+	  				<h1>Muay Thai Fight!</h1>
+				</div>
+			</div>
+		</div><!--row1 ends here-->
+
+
+		<div class=row> <!--row2 starts here-->
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div id="instruction">
+		  			<h2>Game Overall Instructions</h2>
+		  		</div>
+			</div>
+		</div><!--row2 ends here-->
+		</div><!--top wrapers ends here-->
+
+		<div class="row"> <!--row3 starts here. There are two columns in row3. They are thumbnail area and main fighting area-->
+			<div class="col-xs-3 col-sm-3 col-md-3"> <!--thumbnail area starts here. There are 4 sub rows in thumbnail area-->
+				<div class="allplayer">
+					<div class="row"> <!--thumbnail1-->
+				  		<div class="col-xs-12 col-sm-12 col-md-12">
+				    		<div class="thumbnail">
+				      			<img src="assets/images/buakaw.jpg" alt="Buakaw">
+				        		<h3>Buakaw</h3>
+				        		<p><a href="#" class="btn btn-primary center-block" role="button">Select</a></p>
+				  			</div>
+				  		</div>
+					</div>
+				
+				
+					<div class="row"> <!--thumbnail2-->
+				  		<div class="col-xs-12 col-sm-12 col-md-12">
+				    		<div class="thumbnail">
+				     	 		<img src="assets/images/sangdaosakaetongresort.jpg" alt="Sangdao">
+				        		<h3>Sangdao</h3>
+				        		<p><a href="#" class="btn btn-primary center-block" role="button">Select</a></p>
+				  			</div>
+				  		</div>
+					</div>
+
+
+					<div class="row"> <!--thumbnail3-->
+				  		<div class="col-xs-12 col-sm-12 col-md-12">
+				    		<div class="thumbnail">
+				      			<img src="assets/images/muaythaikid.jpg" alt="Muay Thai Kid">
+				        		<h3>Muay Thai Kid</h3>
+				        		<p><a href="#" class="btn btn-primary center-block" role="button">Select</a></p>
+				  			</div>
+				  		</div>
+					</div>
+
+					<div class="row"> <!--thumbnail4-->
+				  		<div class="col-xs-12 col-sm-12 col-md-12">
+				    		<div class="thumbnail">
+				      			<img src="assets/images/pm.jpg" alt="PM Prayuth">
+				        		<h3>PM Prayuth</h3>
+				        		<p><a href="#" class="btn btn-primary center-block" role="button">Select</a></p>
+				  			</div>
+				  		</div>
+					</div>
+				</div><!--allplayerdiv ends here-->
+			</div><!--thumbnail area ends here-->
+
+			<div class="col-xs-9 col-sm-9 col-md-9"> <!--main fighting area starts here. There are 2 sub rows in the main fighting area-->
+				<div class="row"> <!--row 1 of main fighting area1 starts here-->
+					<div class="col-xs-3 col-sm-3 col-md-3"> 
+					</div>
+				  	<div class="col-xs-6 col-sm-6 col-md-6">
+				    	<div id="alert">
+				        	<h3>Rounds or Game Alerts Here</h3>
+				  		</div>
+				  	</div>
+ 					<div class="col-xs-3 col-sm-3 col-md-3"> 
+						<div class="col-xs-12 col-sm-12 col-md-12"> 
+							<div id="scoretext">SCORE
+								<div id="score">0
+								</div>
+							</div> 
+						</div>
+					</div>
+				</div><!--row 1 of main fighting area ends here-->
+
+				<div class="fightingring"><!--fightingring div starts here-->
+					<div class="row"> <!--row 2 of main fighting area starts here-->
+				  		<div class="col-xs-5 col-sm-5 col-md-5">
+				    		<div class="thumbnail">
+				      			<img src="assets/images/left.jpg" alt="You">
+				        		<h3>Player</h3>
+				        		<p>Health Point</p>
+				  			</div>
+				  		</div>
+					
+				  		<div class="col-xs-2 col-sm-2 col-md-2">
+				  	 		<a href="#" class="btn btn-primary btn-lg center-block" role="button">ATTACK</a>
+				  		</div>
+					
+						<div class="col-xs-5 col-sm-5 col-md-5">
+				    		<div class="thumbnail">
+				    			<img src="assets/images/right.jpg" alt="Your Defender">
+				        		<h3>Defender</h3>
+				        		<p>Health Point</p>
+				  			</div>
+				  		</div>
+				  	</div><!--row 2 of main fighting area ends here-->
+				</div><!--fightingring div ends here-->
+					<div class="row"> <!--row 3 of main fightign area starts here-->
+						<div class="col-xs-12 col-sm-13 col-md-12">
+				  	 		<p><a href="#" class="btn btn-primary" id="restart" role="button">Restart Game</a></p>
+						</div>
+					</div> <!--row 3 of main fightign area endss here-->
+			</div><!--main fighting area ends here-->
+		</div><!--row3 ends here-->
+	</div><!--container ends here-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>

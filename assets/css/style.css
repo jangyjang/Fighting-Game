@@ -1,0 +1,120 @@
+/*font-family: 'Yatra One', cursive;
+font-family: 'Alegreya SC', serif;*/
+
+.container {
+	background-color: #fffbd0;
+}
+.topwraper {
+	background-image: url(../images/bg.jpg);
+	margin-bottom: 3%
+
+}
+
+#header {
+	font-family: 'Yatra One', cursive;
+	font-size: 100%;
+	text-align: center;
+	margin: 2% auto;
+
+}
+
+
+#instruction {
+	border: 1px solid black;
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Alegreya SC', serif;
+	margin: 2% auto 1% auto;
+}
+.thumbnail {
+	overflow: hidden;
+}
+
+.allplayer .thumbnail img{
+	width: auto;
+	height: auto;
+}
+
+.allplayer .thumbnail h3{
+	font-family: 'Alegreya SC', serif;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.allplayer .btn-primary {
+	font-family: 'Alegreya SC', serif;
+	background-color: #730000;
+	border-color: #450000;
+	float: right;
+	text-align: center;
+
+}
+.allplayer .btn-primary:hover{
+	background-color: #15245a;
+}
+
+#alert{
+	font-family: 'Alegreya SC', serif;
+	font-size: 100%;
+	margin: 0 auto 10% auto;
+
+}
+
+#scoretext {
+	margin: 20% auto;
+	border: 1px solid black;
+	text-align: center;
+	width: 100%;
+	font-family: 'Yatra One', cursive;
+
+}
+
+#score {
+	margin: 2% auto;
+	color: red;
+
+}
+
+.fightingring .thumbnail{
+	width: auto;
+	height: auto;
+}
+
+.fightingring h3{
+	font-family: 'Alegreya SC', serif;
+	margin: 10% auto;
+	text-align: center;
+
+}
+.fightingring p{
+	font-family: 'Alegreya SC', serif;
+	font-weight: bold;
+	font-size: 150%
+
+}
+
+
+.fightingring .btn {
+	background-color: #730000;
+	border-color: #450000;
+	margin-top: 120%;
+	margin-bottom: 120%;
+	font-family: 'Yatra One', cursive;
+	text-align: center;
+	padding: 10% 0;
+	width: 100%;
+
+}
+
+.fightingring .btn-primary:hover{
+	background-color: #15245a;
+}
+
+#restart{
+	clear: both;
+	float: right;
+	background-color: #730000;
+	border-color: #450000;
+	margin: 10px auto;
+	font-family: 'Yatra One', cursive;
+}
