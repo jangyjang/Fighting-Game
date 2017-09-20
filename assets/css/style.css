@@ -53,27 +53,13 @@ font-family: 'Alegreya SC', serif;*/
 
 #alert{
 	font-family: 'Alegreya SC', serif;
-	font-size: 200%;
+	font-size: 150%;
 	margin: 0 auto 10% auto;
 	color: red;
 	text-align: center;
 
 }
 
-#scoretext {
-	margin: 20% auto;
-	border: 1px solid black;
-	text-align: center;
-	width: 100%;
-	font-family: 'Yatra One', cursive;
-
-}
-
-#score {
-	margin: 2% auto;
-	color: red;
-
-}
 
 .fightingring .thumbnail{
 	width: auto;

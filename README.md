@@ -39,6 +39,7 @@ Attack 2:   75-25=50                       100-40 (AP of cat *2)=60
 Attack 3:   50-25 = 25                     60-60 (Ap of cat *3)= 0
 
 CAT Won Round 1
+
 ------------------
 Round Two Scenario One (Ther is only fish, no zebra)
             Cat                             Fish
