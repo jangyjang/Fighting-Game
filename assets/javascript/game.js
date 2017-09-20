@@ -65,9 +65,9 @@ alert("Plasee select your player");
 		attackClick++
 		if (attackClick){
 			HPofPlayer=playerInfo[1]-defenderInfo[3];
-				playerInfo[1]=(HPofPlayer)
+			playerInfo[1]=(HPofPlayer);
 			HPofDefender=(defenderInfo[1]-(playerInfo[2]*(attackClick)));
-				defenderInfo[1]=(HPofDefender)
+			defenderInfo[1]=(HPofDefender);
 		console.log("player base hp " + playerInfo[1])
 		console.log("defender CAP " + defenderInfo[3])
 		console.log("player hp after attack " + HPofPlayer)
@@ -80,14 +80,14 @@ alert("Plasee select your player");
 		$("#defenderHP").text("Health Point: " + HPofDefender);
 		}
 		if (HPofDefender<=0){
-			$("#defender").hide()
-			$(".btn-lg").hide()
+			$("#defender").hide();
+			$(".btn-lg").hide();
 			$("#alert").html("<h3>ROUND ONE: You win!</h3><h3>Please select a new defender</h3>")
 	
 		}
 		if (HPofPlayer<=0){
-			$("#player").hide()
-			$(".btn-lg").hide()
+			$("#player").hide();
+			$(".btn-lg").hide();
 			$("#alert").html("<h3>You lost this match</h3><h3>Click RESTART below to try again</h3>")
 			$(".fightingring").attr("src","images/pug.jpg")
 

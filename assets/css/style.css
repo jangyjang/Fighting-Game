@@ -6,7 +6,7 @@ font-family: 'Alegreya SC', serif;*/
 }
 .topwraper {
 	background-image: url(../images/bg.jpg);
-	margin-bottom: 3%
+	margin-bottom: 3%;
 
 }
 
@@ -14,18 +14,10 @@ font-family: 'Alegreya SC', serif;*/
 	font-family: 'Yatra One', cursive;
 	font-size: 100%;
 	text-align: center;
-	margin: 2% auto;
+	margin: 5% auto;
 
 }
 
-
-#instruction {
-	border: 1px solid black;
-	text-align: center;
-	font-size: 150%;
-	font-family: 'Alegreya SC', serif;
-	margin: 2% auto 1% auto;
-}
 .thumbnail {
 	overflow: hidden;
 }
