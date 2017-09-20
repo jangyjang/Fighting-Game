@@ -18,7 +18,7 @@
 		<div class=row> <!--row1 starts here-->
 			<div class="col-xs-12 col-sm-12 col-md-12"> 
 				<div id="header">
-	  				<h1>Muay Thai Fight!</h1>
+	  				<h1>MUAY THAI FIGHT!</h1>
 				</div>
 			</div>
 		</div><!--row1 ends here-->
@@ -41,7 +41,10 @@
 				    		<div class="thumbnail">
 				      			<img src="assets/images/buakaw.jpg" alt="Buakaw">
 				        		<h3>Buakaw</h3>
-				        		<p><a href="#" class="btn btn-primary center-block" role="button">Select</a></p>
+				        		<h4>Health Point: 100</h4>
+				        		<p>
+				        			<a class="btn btn-primary center-block" role="button">Select</a>
+				        		</p>
 				  			</div>
 				  		</div>
 					</div>
@@ -52,7 +55,10 @@
 				    		<div class="thumbnail">
 				     	 		<img src="assets/images/sangdaosakaetongresort.jpg" alt="Sangdao">
 				        		<h3>Sangdao</h3>
-				        		<p><a href="#" class="btn btn-primary center-block" role="button">Select</a></p>
+				        		<h4>Health Point: 180</h4>
+				        		<p>
+				        			<a class="btn btn-primary center-block"  role="button">Select</a>
+				        		</p>
 				  			</div>
 				  		</div>
 					</div>
@@ -60,10 +66,13 @@
 
 					<div class="row"> <!--thumbnail3-->
 				  		<div class="col-xs-12 col-sm-12 col-md-12">
-				    		<div class="thumbnail">
+				    		<div id="fighter3" class="thumbnail">
 				      			<img src="assets/images/muaythaikid.jpg" alt="Muay Thai Kid">
 				        		<h3>Muay Thai Kid</h3>
-				        		<p><a href="#" class="btn btn-primary center-block" role="button">Select</a></p>
+				        		<h4>Health Point: 120</h4>
+				        		<p>
+				        			<a  class="btn btn-primary center-block" role="button">Select</a>
+				        		</p>
 				  			</div>
 				  		</div>
 					</div>
@@ -73,7 +82,10 @@
 				    		<div class="thumbnail">
 				      			<img src="assets/images/pm.jpg" alt="PM Prayuth">
 				        		<h3>PM Prayuth</h3>
-				        		<p><a href="#" class="btn btn-primary center-block" role="button">Select</a></p>
+				        		<h4>Health Point: 200</h4>
+				        		<p>
+				        			<a class="btn btn-primary center-block" role="button">Select</a>
+				        		</p>
 				  			</div>
 				  		</div>
 					</div>
@@ -102,29 +114,29 @@
 				<div class="fightingring"><!--fightingring div starts here-->
 					<div class="row"> <!--row 2 of main fighting area starts here-->
 				  		<div class="col-xs-5 col-sm-5 col-md-5">
-				    		<div class="thumbnail">
-				      			<img src="assets/images/left.jpg" alt="You">
-				        		<h3>Player</h3>
-				        		<p>Health Point</p>
+				    		<div id="player" class="thumbnail">
+				      			<img id="playerIMG" src="assets/images/left.jpg" alt="You">
+				        		<h3 id="playerName">You</h3>
+				        		<p id="playerHP">Health Point: 0</p>
 				  			</div>
 				  		</div>
 					
 				  		<div class="col-xs-2 col-sm-2 col-md-2">
-				  	 		<a href="#" class="btn btn-primary btn-lg center-block" role="button">ATTACK</a>
+				  	 		<a class="btn btn-primary btn-lg center-block" role="button">ATTACK</a>
 				  		</div>
 					
 						<div class="col-xs-5 col-sm-5 col-md-5">
-				    		<div class="thumbnail">
-				    			<img src="assets/images/right.jpg" alt="Your Defender">
-				        		<h3>Defender</h3>
-				        		<p>Health Point</p>
+				    		<div id="defender" class="thumbnail">
+				    			<img id="defenderIMG" src="assets/images/right.jpg" alt="Your Defender">
+				        		<h3 id="defenderName">Your Defender</h3>
+				        		<p id="defenderHP">Health Point: 0</p>
 				  			</div>
 				  		</div>
 				  	</div><!--row 2 of main fighting area ends here-->
 				</div><!--fightingring div ends here-->
 					<div class="row"> <!--row 3 of main fightign area starts here-->
 						<div class="col-xs-12 col-sm-13 col-md-12">
-				  	 		<p><a href="#" class="btn btn-primary" id="restart" role="button">Restart Game</a></p>
+				  	 		<p><a class="btn btn-primary" id="restart" role="button">Restart Game</a></p>
 						</div>
 					</div> <!--row 3 of main fightign area endss here-->
 			</div><!--main fighting area ends here-->
